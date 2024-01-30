@@ -7,11 +7,11 @@ import numpy as np
 import time
 import cv2
 
-from retinaface.data import cfg_mnet, cfg_re50
-from retinaface.layers.functions.prior_box import PriorBox
-from retinaface.utils.nms.py_cpu_nms import py_cpu_nms
-from retinaface.models.retinaface import RetinaFace
-from retinaface.utils.box_utils import decode, decode_landm
+from pytorch_retinaface.data import cfg_mnet, cfg_re50
+from pytorch_retinaface.layers.functions.prior_box import PriorBox
+from pytorch_retinaface.utils.nms.py_cpu_nms import py_cpu_nms
+from pytorch_retinaface.models.retinaface import RetinaFace
+from pytorch_retinaface.utils.box_utils import decode, decode_landm
 
 
 

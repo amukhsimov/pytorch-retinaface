@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from retinaface.utils.box_utils import match, log_sum_exp
-from retinaface.data import cfg_mnet
+from pytorch_retinaface.utils.box_utils import match, log_sum_exp
+from pytorch_retinaface.data import cfg_mnet
 GPU = cfg_mnet['gpu_train']
 
 class MultiBoxLoss(nn.Module):

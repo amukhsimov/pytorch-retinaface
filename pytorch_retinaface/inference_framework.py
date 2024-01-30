@@ -4,12 +4,12 @@ import numpy as np
 torch.set_grad_enabled(False)
 
 # My libs
-import retinaface.models.retinaface as rf_model
-import retinaface.detect as rf_detect
-import retinaface.data.config as rf_config
-import retinaface.layers.functions.prior_box as rf_priors
-import retinaface.utils.box_utils as rf_ubox
-import retinaface.utils.nms.py_cpu_nms as rf_nms
+import pytorch_retinaface.models.retinaface as rf_model
+import pytorch_retinaface.detect as rf_detect
+import pytorch_retinaface.data.config as rf_config
+import pytorch_retinaface.layers.functions.prior_box as rf_priors
+import pytorch_retinaface.utils.box_utils as rf_ubox
+import pytorch_retinaface.utils.nms.py_cpu_nms as rf_nms
 
 
 # Default configs
